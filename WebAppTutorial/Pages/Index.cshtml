@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 id="goodbye_earthlings" class="display-4 green-text" onmouseover="newColor()" onmouseout="oldColor()">Goodbye, Earthlings</h1>
+    <p>TYCHO - TIME TO RUN</p>
+</div>
+
+<div align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/38bw_3hQK8o?si=Ao0CH9vXMBkN1AFp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<div align="center">
+    <canvas id="canvas">
+    </canvas>
+</div>
